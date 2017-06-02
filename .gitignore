@@ -18,8 +18,8 @@
 .glide/
 
 # Vendored packages
-!vendor/vendor.json
-vendor/**/
+#!vendor/vendor.json
+#vendor/**/
 
 ### Intellij ###
 # Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and Webstorm
