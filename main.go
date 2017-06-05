@@ -9,7 +9,7 @@ import (
 	"github.com/gorilla/mux"
 )
 
-const COLOR = "green"
+const COLOR = "blue"
 
 func sayHelloHandler(w http.ResponseWriter, r *http.Request) {
 	vars := mux.Vars(r)
